@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Selection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monda:wght@400..700&family=Poetsen+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../CSS/index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="banner">
+            <div class="line"></div>
+            <div class="text">YAY! It's BOGO</div>
+            <div class="line"></div>
+        </div>
+        <div class="option" onclick="selectOption(this, true)">
+            <input type="radio" name="unit">
+            <article class="price"><span>1 Unit <span class="discount">10% Off</span></span>
+            <span>$10.00 USD<div class="old-price">$24.00 USD</div></span> </article>
+            
+            <div class="dropdowns">
+                <table>
+                    <th></th><th  class="thead">Size</th><th class="thead">Colour</th>
+                    <tr><th>#1</th><td><span class="select-box"><select><option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option></select></span></td>
+                <td><span class="select-box"><select><option>Black</option><option>White</option><option>Red</option></select></span></td></tr>
+                <tr><th>#2</th><td><span class="select-box"><select><option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option></select></span></td>
+                <td><span class="select-box"><select><option>Black</option><option>White</option><option>Red</option></select></span></td></tr>
+                </table>
+                
+            </div>
+        </div>
+        <div class="option" onclick="selectOption(this, true)">
+            <input type="radio" name="unit">
+            <span class="most-popular">MOST POPULAR</span>
+            <article class="price"><span>2 Unit <span class="discount">20% Off</span></span>
+                <span>$18.00 USD<div class="old-price">$24.00 USD</div></span> </article>
+            
+            <div class="dropdowns">
+                <table>
+                    <th></th><th class="thead">Size</th><th class="thead">Colour</th>
+                    <tr><th>#1</th><td><span class="select-box"><select><option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option></select></span></td>
+                <td><span class="select-box"><select><option>Black</option><option>White</option><option>Red</option></select></span></td></tr>
+                <tr><th>#2</th><td><span class="select-box"><select><option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option></select></span></td>
+                <td><span class="select-box"><select><option>Black</option><option>White</option><option>Red</option></select></span></td></tr>
+                </table>
+            
+            </div>
+        </div>
+        <div class="option" onclick="selectOption(this, true)">
+            <input type="radio" name="unit">
+            <article class="price"><span>3 Unit <span class="discount">30% Off</span></span>
+                <span>$24.00 USD <div class="old-price">$24.00 USD</div></span> </article>
+            
+            <div class="dropdowns">
+                <table>
+                    <th></th><th class="thead">Size</th><th class="thead">Colour</th>
+                    <tr><th>#1</th><td><span class="select-box"><select><option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option></select></span></td>
+                <td><span class="select-box"><select><option>Black</option><option>White</option><option>Red</option></select></span></td></tr>
+                <tr><th>#2</th><td><span class="select-box"><select><option value="">S</option>
+                    <option value="">M</option>
+                    <option value="">L</option></select></span></td>
+                <td><span class="select-box"><select><option>Black</option><option>White</option><option>Red</option></select></span></td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <div class="summary">
+        <div id="duo">
+            <span class="free-delivery">Free Delivery</span>
+        <span class="total">Total: $18.00 USD</span>
+        </div>
+        
+        <button class="add-to-cart">+ Add to Cart</button>
+        <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+    
+    <script src="./../JS/assignment.js"></script>
+</body>
+</html>
+
+
